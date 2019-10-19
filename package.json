@@ -15,7 +15,7 @@
     "release": "NODE_ENV='production' npm run rollup",
     "release:umd": "NODE_ENV='production' BUILD_FORMAT='umd' npm run rollup",
     "release:min": "NODE_ENV='production' BUILD_FORMAT='umd' MINIFY=1 npm run rollup",
-    "prepublish": "npm run clean && npm run release:umd && npm run release:min"
+    "prepublish": "npm run clean && npm run release && npm run release:umd && npm run release:min"
   },
   "repository": {
     "type": "git",
