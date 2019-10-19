@@ -1,6 +1,6 @@
 {
   "name": "imer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple immutable data manager inspired by Immer.",
   "main": "dist/umd/index.js",
   "directories": {
